@@ -37,7 +37,7 @@ elif Choice==2:
         print(f"{grams} g is {pounds} lb")
     elif choice2==2:
         pounds=float(input("Insert pounds: "))
-        grams=round(pounds/0.002205, 1)
+        grams=round(pounds*453.6, 1)
         print(f"{pounds} lb is {grams} g")
     elif choice2==0:
         print("Exiting...")
